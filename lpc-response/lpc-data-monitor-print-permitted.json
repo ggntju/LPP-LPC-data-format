@@ -1,0 +1,7 @@
+{
+    "system_function": "data_monitor",
+    "system_response": {
+        "overall": "print_permitted",
+        "payload": []
+    }
+}

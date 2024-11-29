@@ -1,0 +1,11 @@
+{
+    "system_function": "error_report",
+    "system_response": {
+        "overall": "internal_error",
+        "payload": [
+            {
+                "RCA0": "RCA"
+            }
+        ]
+    }
+}

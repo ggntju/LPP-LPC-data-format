@@ -1,0 +1,68 @@
+{
+	"layer_sum": 50,
+	"layer_index": 0,
+	"datablock_sum":3,
+	"reserved_key":"reserved_value",
+	"ch_0_gain": 0,
+	"ch_1_gain": 0,
+	"ch_2_gain": 0,
+	"datablock_info":[
+		{
+			"datablock_index":0,
+			"datablock_name": "datablock_0",
+			"datablock_type":1,
+			"skywriting_flag": 1,
+			"scan_speed":500.0,
+			"laser_power":50.0,
+			"datablock_data_sum":5,
+			"reserved_key":"reserved_value",
+			"datablock_data":[
+				[11,25,15,21],
+				[12,24,14,22],
+				[13,23,13,23],
+				[14,22,12,24],
+				[15,21,11,25]
+			]
+		},
+		{
+			"datablock_index":1,
+			"datablock_name": "datablock_1",
+			"datablock_type":1,
+			"skywriting_flag": 0,
+			"scan_speed":600.0,
+			"laser_power":70.0,
+			"datablock_data_sum":3,
+			"reserved_key":"reserved_value",
+			"datablock_data":[
+				[11,23,13,21],
+				[12,22,12,22],
+				[13,21,11,23]
+			]
+		},
+		{
+			"datablock_index":2,
+			"datablock_name": "datablock_2",
+			"datablock_type":3,
+			"skywriting_flag": 1,
+			"scan_speed":700.0,
+			"laser_power":60.0,
+			"datablock_data_sum":3,
+			"reserved_key":"reserved_value",
+			"datablock_data":[
+				[
+					[11,21],
+					[12,22],
+					[13,23]
+				],
+				[
+					[14,24],
+					[15,25]
+				],
+				[
+					[16,26],
+					[17,27]
+				]
+			]
+		}
+	]
+}

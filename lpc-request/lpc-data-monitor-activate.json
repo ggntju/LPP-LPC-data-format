@@ -1,0 +1,9 @@
+{   
+    "system_function": "data_monitor",  
+    "system_request": "activate",
+    "payload": [
+        {
+            "layer_index": 0
+        }
+    ]
+}

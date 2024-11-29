@@ -1,0 +1,99 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+        "ch_0_gain",
+        "ch_1_gain",
+        "ch_2_gain",
+        "datablock_info",
+        "datablock_sum",
+        "layer_index",
+        "layer_sum",
+        "reserved_key"
+    ],
+    "properties": {
+        "layer_sum": {
+            "type": "integer"
+        },
+        "layer_index": {
+            "type": "integer"
+        },
+        "datablock_sum": {
+            "type": "integer"
+        },
+        "reserved_key": {
+            "type": "string"
+        },
+        "ch_0_gain": {
+            "type": "integer"
+        },
+        "ch_1_gain": {
+            "type": "integer"
+        },
+        "ch_2_gain": {
+            "type": "integer"
+        },
+        "datablock_info": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "datablock_index": {
+                        "type": "integer"
+                    },
+                    "datablock_name": {
+                        "type": "string"
+                    },
+                    "datablock_type": {
+                        "type": "integer"
+                    },
+                    "skywriting_flag": {
+                        "type": "integer"
+                    },
+                    "scan_speed": {
+                        "type": "number"
+                    },
+                    "laser_power": {
+                        "type": "number"
+                    },
+                    "datablock_data_sum": {
+                        "type": "integer"
+                    },
+                    "reserved_key": {
+                        "type": "string"
+                    },
+                    "datablock_data": {
+                        "type": "array",
+                        "items": {
+                            "type": "array",
+                            "items": {
+                                "anyOf": [
+                                    {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    {
+                                        "type": "integer"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "datablock_data",
+                    "datablock_data_sum",
+                    "datablock_index",
+                    "datablock_name",
+                    "datablock_type",
+                    "laser_power",
+                    "reserved_key",
+                    "scan_speed",
+                    "skywriting_flag"
+                ]
+            }
+        }
+    }
+}

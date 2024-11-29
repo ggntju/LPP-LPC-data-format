@@ -1,0 +1,5 @@
+{   
+    "system_function": "signal_plot",  
+    "system_request": "query",
+    "payload": []
+}

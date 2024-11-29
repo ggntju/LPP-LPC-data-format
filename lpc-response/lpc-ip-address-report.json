@@ -1,0 +1,11 @@
+{
+    "system_function": "ip_address",
+    "system_response": {
+        "overall": "report",
+        "payload": [
+            {
+                "ip_address": "x.x.x.x"
+            }
+        ]
+    }
+}
