@@ -20,6 +20,7 @@ LPP数据格式是描述增材制造过程中，层模型信息的一种数据�
 
 LPC数据格式是增材制造过程中，打印机PLC发送控制指令给SLMO监测系统的一种数据格式，通讯使用TCP/IP协议，LPC基于JSON，定义了增材制造过程监测控制所需的字段，其中包含打印项目的开始与结束；单层监测的激活，开始与结束；监测数据与路径的逆构结果查询；SLMO监测系统IP地址查询。LPC分为请求与回复。
 
-[LPC 请求](./lpc-request/)
+[LPC 请求](./lpc-request/LPC-request-definition.md)
 
-[LPC 回复](./lpc-response/)
+
+[LPC 回复](./lpc-response/LPC-response-definition.md)
