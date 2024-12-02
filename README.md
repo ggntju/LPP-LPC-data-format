@@ -24,3 +24,7 @@ LPC数据格式是增材制造过程中，打印机PLC发送控制指令给SLMO�
 
 
 [LPC 回复](./lpc-response/LPC-response-definition.md)
+
+## SLMO与打印机通讯流程
+
+[流程图](./SLMO4-workflow.pdf)
