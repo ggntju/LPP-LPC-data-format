@@ -12,6 +12,4 @@
 
 [单层监测结束](./lpc-data-monitor-print-finished.json)
 
-[监测数据与路径的逆构结果查询](./lpc-signal-plot-query.json)
-
 [SLMO监测系统IP地址查询](./lpc-ip-address-query.json)
