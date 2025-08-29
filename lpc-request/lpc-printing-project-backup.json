@@ -1,0 +1,8 @@
+{   
+    "system_function": "printing_project",  
+    "system_request": "backup",
+    "payload": [
+        {"backup_drive_name": "Extreme SSD"},
+        {"project_name": "test_project"}
+    ]
+}

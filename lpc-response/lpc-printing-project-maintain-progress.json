@@ -1,0 +1,9 @@
+{
+    "system_function": "printing_project",
+    "system_response": {
+        "overall": "maintain_command_received",
+        "payload": [
+            {"maintain_progress": "40%"}
+        ]
+    }
+}
